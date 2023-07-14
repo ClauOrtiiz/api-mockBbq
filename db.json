@@ -1,17 +1,16 @@
 {
   "orders": [
     {
-      "id": 1,
+      "client": "Claudia",
       "userId": 1,
-      "client": "Jude Milhon",
       "products": [
         {
           "qty": 1,
           "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+            "id": 2,
+            "name": "Café americano",
+            "price": 500,
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
             "type": "Desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
@@ -19,49 +18,18 @@
         {
           "qty": 1,
           "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+            "id": 5,
+            "name": "Jugo de frutas natural",
+            "price": "700",
+            "image": "https://cdn-icons-png.flaticon.com/512/5606/5606378.png",
             "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
+            "dateEntry": "2023-07-14T18:05:48.541Z"
           }
         }
       ],
       "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "client": "Katie Bouman",
-      "products": [
-        {
-          "qty": 2,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 3,
-            "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-            "type": "Almuerzo",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
+      "dataEntry": "2023-07-14T18:09:25.912Z",
+      "id": 1
     }
   ],
   "products": [
@@ -88,20 +56,64 @@
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "name": "Hamburguesa simple",
+      "price": "1000",
+      "image": "https://img.freepik.com/iconos-gratis/hamburguesa_318-856026.jpg?w=2000",
+      "dateEntry": "2023-07-14T18:04:23.195Z",
+      "type": "Almuerzo",
+      "id": 4
+    },
+    {
+      "name": "Jugo de frutas natural",
+      "price": "700",
+      "image": "https://cdn-icons-png.flaticon.com/512/5606/5606378.png",
+      "dateEntry": "2023-07-14T18:05:48.541Z",
+      "type": "Desayuno",
+      "id": 5
+    },
+    {
+      "name": "Bebida/gaseosa 750ml",
+      "price": "1000",
+      "image": "https://img.freepik.com/iconos-gratis/reajuste-salarial_318-856902.jpg?w=360",
+      "dateEntry": "2023-07-14T18:06:39.523Z",
+      "type": "Almuerzo",
+      "id": 7
+    },
+    {
+      "name": "Papas fritas",
+      "price": "500",
+      "image": "https://img.freepik.com/vector-gratis/papas-fritas-salsa-diferente_1308-133806.jpg?w=740&t=st=1688761392~exp=1688761992~hmac=9c594844a5de01ee830637aac6caa258fce0c0399ae08af065703810484b975e",
+      "dateEntry": "2023-07-14T18:07:13.162Z",
+      "type": "Almuerzo",
+      "id": 8
     }
   ],
   "users": [
     {
-      "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
-      "role": "admin",
-      "id": 1
+      "email": "waiter@bbq.com",
+      "password": "$2a$10$3G5ATC5U99selB8YPN1Zt./Ey5R2RHmjUi.XBCmSmf.IMUu3da8HS",
+      "role": "waiter",
+      "id": 3
     },
     {
-      "email": "grace.hopper@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "email": "cheff@bbq.com",
+      "password": "$2a$10$slyKgj2wv6iup4rrQnKjiOikD37Uq361Z18mljT6AICqt/ANRSDmS",
+      "role": "cheff",
+      "id": 4
+    },
+    {
+      "email": "admin@bbq.com",
+      "password": "$2a$10$F8bOJ7BJdlynDYoPXNTrU.cmbo.FkLdxiXoB2LFHdumXItO.ace.i",
       "role": "admin",
-      "id": 2
+      "id": 5
+    },
+    {
+      "email": "admin01@bbq.com",
+      "password": "$2a$10$/Cg/SnQZK/xWySxn.OIZ7etSv/KI0sZlIQasGUJliT7fC9p58I1fy",
+      "role": "admin",
+      "id": 6
     }
   ]
 }

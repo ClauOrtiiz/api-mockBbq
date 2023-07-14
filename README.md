@@ -30,6 +30,6 @@ usando como URL base [http://localhost:8080/](http://localhost:8080/).
 
 ## Información
 
-El mock _out-of-the-box_ provee información de 2 usuarias administradoras _anita.borg@systers.xyz_ y _grace.hopper@systers.xyz_. La contraseña de ambos usuarios es _123456_
+El mock provee información de 3 usuarios administradoras _admin@bbq.com_ , _waiter@bbq.com_  y _cheff@bbq.com_. La contraseña de los usuarios es _123456_
 
-También provee información de 2 órdenes y 2 productos.
+También provee información de 1 orden y 7 productos.
